@@ -980,7 +980,7 @@ export default function Home() {
 
       {/* Choose PlanThat’s Right For You start */}
       <div className="text-center pb-20 bg-base-100 bg-gradient-to-r from-[#ffffff] via-white to-[#d7fcef] ">
-        <div className="font-bold text-4xl">
+        <div className="font-bold sm:pt-10 text-4xl">
           Choose Plan <br />
           That is Right For You
         </div>
