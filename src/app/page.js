@@ -805,7 +805,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <Image
-                className="lg:w-[450px]  w-[300px] h-[350px] lg:h-[529px] z-10 lg:ms-20 ms-10 lg:pt-16 pt-6 rounded-xl "
+                className="lg:w-[450px]  w-[300px] h-[300px] lg:h-[529px] z-10 lg:ms-20 ms-10 lg:pt-16 pt-6 rounded-xl "
                 src={laptop}
                 alt="laptop"
               ></Image>
