@@ -39,3 +39,11 @@ padding: 9px;
   padding: 12px;
   border-radius: 10px;
 }
+@media only screen and (max-width: 600px) {
+  .bannermanbg {
+    border-radius: 10px;
+    background: #52bd94;
+    width: 290px;
+    margin-top: 90px;
+  }
+}

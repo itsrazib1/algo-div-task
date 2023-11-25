@@ -100,9 +100,9 @@ export default function Home() {
       {/* Desplay 1st Sart  */}
       <div>
         <div className=" h-screen  bg-gradient-to-r from-[#d7fcef] via-white to-[#d7fcef]">
-          <div className="justify-evenly mx-auto flex lg:flex ">
-            <div className="text-center pt-20 lg:text-left">
-              <h1 className="lg:text-6xl text-base pt-10 pb-3 font-bold">
+          <div className="justify-evenly mx-auto lg:flex flex-row  ">
+            <div className="text-center lg:pt-20 pt-0 lg:text-left">
+              <h1 className="lg:text-6xl text-base lg:pt-10 pt-3 pb-3 font-bold">
                 We Are here to <br /> Increase your <br /> Productivity
               </h1>
               <svg
@@ -120,12 +120,12 @@ export default function Home() {
                   stroke-linecap="round"
                 />
               </svg>
-              <p className="py-6 lg:text-base text-xs">
+              <p className="lg:py-6 py-3 lg:text-base text-xs">
                 Let is make your work more organize and easily using <br /> the
                 Taskio Dashboard with many of the latest <br /> featuresin
                 managing work every day.
               </p>
-              <div className="flex">
+              <div className="lg:flex flex lg:justify-start justify-center ">
                 <button className="bg-[#54BD95] px-3 py-2 rounded-full text-white">
                   Try free trial
                 </button>
@@ -138,9 +138,9 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative ">
               <Image
-                className="w-[437px]  z-10 ms-20 pt-16 rounded-xl bannermanbg"
+                className="lg:w-[437px] w-[150px] z-10 ms-20 pt-16 rounded-xl bannermanbg"
                 src={manimg}
                 alt="manimg"
               ></Image>
@@ -164,7 +164,7 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <div className="-mt-[200px]  -ms-28">
+                <div className="lg:-mt-[200px] -mt-[170px] ms-10 lg:-ms-28">
                   <div className=" w-[262px] rounded-lg h-[78px] ps-6 pt-4 bg-white shadow-xl">
                     <div className="  flex">
                       <div>
@@ -183,7 +183,7 @@ export default function Home() {
               </div>
               <div>
                 <div className="mt-[270px] absolute  -ms-8">
-                  <div className=" w-[198px]  rounded-lg h-[70px] ps-6 pt-4 bg-white shadow-xl">
+                  <div className=" w-[198px] rounded-lg h-[70px] ps-10 lg:ps-6 pt-4 bg-white shadow-xl">
                     <div className="  flex">
                       <div>
                         <h2 className="title text-slate-500">Total Income</h2>
@@ -228,7 +228,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="">
-                <div className="btnsecond absolute -mt-10 ms-[470px]">
+                <div className="btnsecond absolute mt-10 ms-[290px] lg:ms-[470px]">
                   {" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -274,7 +274,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="">
-                <div className="btnthard absolute mt-[350px] ms-[430px]">
+                <div className="btnthard absolute mt-[350px] ms-[200px] lg:ms-[430px]">
                   {" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -306,7 +306,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="">
-                <div className="h-[188px] w-[146px] absolute mt-[200px]  ms-[430px]">
+                <div className="h-[188px] w-[146px] absolute mt-[200px] ms-[260px] lg:ms-[430px]">
                   {" "}
                   <Image src={debetecard} alt="debetcard"></Image>
                 </div>
@@ -319,11 +319,11 @@ export default function Home() {
 
       {/* More than 25,000 teams use Collabs start */}
       <div>
-        <div className="bg-gradient-to-r from-[#d7fcef] via-white to-[#d7fcef]">
+        <div className="bg-gradient-to-r -pt-28 lg:pt-20 from-[#d7fcef] via-white to-[#d7fcef]">
           <div className=" font-bold text-center text-4xl">
             More than 25,000 teams use Collabs
           </div>
-          <div className="flex py-16 gap-5 text-3xl text-slate-400 font-extrabold justify-center">
+          <div className="lg:flex flex-row ms-10 py-5  lg:py-16 gap-5 text-3xl text-slate-400 font-extrabold justify-center">
             <div className="flex gap-3">
               <div>
                 <svg
@@ -443,9 +443,9 @@ export default function Home() {
 
       {/* How we support our pratner all over the world Start */}
       <div>
-        <div className="flex bg-[#F9F8FE] pb-16 pt-16 px-40">
+        <div className="lg:flex flex-row bg-[#F9F8FE] pb-16 pt-16 px-10 lg:px-40">
           <div className="w-7/12">
-            <div className="font-bold text-5xl">
+            <div className="font-bold text-base lg:text-5xl">
               How we support our <br /> pratner all over the world
             </div>
             <p className="py-10">
@@ -525,9 +525,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-5/12 ">
+          <div className="lg:w-5/12 w-full ">
             <div className="mb-12">
-              <div className="flex gap-5">
+              <div className="lg:flex  gap-5">
                 <div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -615,8 +615,8 @@ export default function Home() {
       {/* How we support our pratner all over the world End */}
 
       {/* Our Features you cab get start */}
-      <div className="flex justify-between py-20 bg-[#FFF] px-32 ">
-        <div className="font-bold text-6xl">
+      <div className="lg:flex flex-row justify-between py-20 bg-[#FFF] lg:px-32 px-5 ">
+        <div className="font-bold text-3xl lg:text-6xl">
           Our Features <br /> you cab get
         </div>
         <div className="text-xl pt-2">
@@ -632,8 +632,8 @@ export default function Home() {
       {/* Our Features you cab get end */}
       {/* Three Card start  */}
       <div>
-        <div className="flex py-20 gap-5 px-[130px]">
-          <div className=" w-1/3  bg-base-100 shadow-xl">
+        <div className="lg:flex flex-row py-20 gap-5 px-5 lg:px-[130px]">
+          <div className=" w-full lg:w-1/3  bg-base-100 shadow-xl">
             <figure className="">
               <Image
                 src={cardimgone}
@@ -649,7 +649,7 @@ export default function Home() {
               <div className="card-actions"></div>
             </div>
           </div>
-          <div className=" w-1/3  bg-base-100 shadow-xl">
+          <div className="w-full lg:w-1/3  bg-base-100 shadow-xl">
             <figure className="">
               <Image
                 src={cardimgtwo}
@@ -668,7 +668,7 @@ export default function Home() {
               <div className="card-actions"></div>
             </div>
           </div>
-          <div className=" w-1/3  bg-base-100 shadow-xl">
+          <div className=" w-full lg:w-1/3  bg-base-100 shadow-xl">
             <figure className="">
               <Image
                 src={cardimgthree}
@@ -696,14 +696,14 @@ export default function Home() {
 
       <div className="">
         <div className=" h-screen  bg-gradient-to-r from-[#ffffff] via-white to-[#d7fcef]">
-          <div className="justify-evenly mx-auto flex lg:flex">
+          <div className="justify-evenly mx-auto flex-row lg:flex">
             <div className="text-center pt-20 lg:text-left">
-              <h1 className="text-6xl pt-10 pb-3 font-bold">
+              <h1 className="lg:text-6xl text-3xl  pt-10 pb-3 font-bold">
                 What Benifit Will <br /> You Get
               </h1>
 
-              <div className="font-semibold ">
-                <div className="mt-7 flex gap-5">
+              <div className="font-semibold px-5">
+                <div className="mt-7  flex gap-5">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -805,13 +805,13 @@ export default function Home() {
             </div>
             <div className="relative">
               <Image
-                className="w-[450px] h-[529px] z-10 ms-20 pt-16 rounded-xl "
+                className="lg:w-[450px] w-[300px] h-[350px] lg:h-[529px] z-10 ms-20 pt-16 rounded-xl "
                 src={laptop}
                 alt="laptop"
               ></Image>
-              <div className="-mt-[300px]  ms-4"></div>
+              <div className="-mt-[300px] lg:block hidden ms-4"></div>
               <div>
-                <div className="-mt-[200px] absolute  -ms-28">
+                <div className="-mt-[200px] absolute lg:block hidden -ms-28">
                   <div className=" w-[304px] rounded-lg py-2 ps-6  bg-white shadow-xl">
                     <div className=" gap-3 flex">
                       <div>
@@ -852,7 +852,7 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <div className="mt-[270px] absolute  -ms-8">
+                <div className="mt-[270px] absolute lg:block hidden -ms-8">
                   <div className=" w-[300px]  rounded-lg h-[70px] ps-6 pt-6 bg-white shadow-xl">
                     <div className=" gap-4  flex">
                       <div>
@@ -880,7 +880,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="">
-                <div className="secondbannerimg absolute mt-10 ms-[5px]">
+                <div className="secondbannerimg lg:block hidden absolute mt-10 lg:ms-[5px] ">
                   {" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -927,7 +927,7 @@ export default function Home() {
               </div>
 
               <div>
-                <div className="mt-[-90px] absolute ms-[420px]">
+                <div className="mt-[-90px] lg:block hidden absolute ms-[420px]">
                   <div className=" w-[198px]  rounded-lg h-[70px] ps-6 pt-4 bg-white shadow-xl">
                     <div className="  flex">
                       <div>
@@ -996,8 +996,8 @@ export default function Home() {
       {/* Choose PlanThat’s Right For You end */}
 
       {/* packege Start */}
-      <div className="px-32 mb-8 bg-gradient-to-r from-[#ffffff] via-white to-[#d7fcef] py-8 flex gap-5">
-        <div className="card hover:bg-[#54BD95] hover:text-white  w-1/3 bg-base-100 shadow-xl">
+      <div className="lg:px-32  px-5 mb-8 bg-gradient-to-r from-[#ffffff] via-white to-[#d7fcef] py-8 lg:flex flex-row gap-5">
+        <div className="card mt-5 hover:bg-[#54BD95] hover:text-white w-full lg:w-1/3 bg-base-100 shadow-xl">
           <figure className="px-10 pt-10"></figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Free</h2>
@@ -1112,7 +1112,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="card hover:bg-[#54BD95] hover:text-white  w-1/3 bg-base-100 shadow-xl">
+        <div className="card mt-5 hover:bg-[#54BD95] hover:text-white w-full lg:w-1/3 bg-base-100 shadow-xl">
           <figure className="px-10 pt-10"></figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Pro</h2>
@@ -1228,7 +1228,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="card hover:bg-[#54BD95] hover:text-white  w-1/3 bg-base-100 shadow-xl">
+        <div className="card mt-5 hover:bg-[#54BD95] hover:text-white w-full lg:w-1/3 bg-base-100 shadow-xl">
           <figure className="px-10 pt-10"></figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Business</h2>
@@ -1348,7 +1348,7 @@ export default function Home() {
       {/* packege end */}
 
       {/* Footer start  */}
-      <div className="bg-[#161C28] px-[130px] pt-20 text-white min-h-full">
+      <div className="bg-[#161C28] px-4 lg:px-[130px] pt-20 text-white min-h-full">
         <div className="container mx-auto py-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 items-center">
             <div className="px-10">
@@ -1380,7 +1380,7 @@ export default function Home() {
               </p>
               <p className="textp mt-8">_ Aria Zinanrio</p>
 
-              <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 items-center justify-items-center lg:justify-items-start gap-6 mt-8">
+              <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5 items-center justify-items-center lg:justify-items-start gap-6 mt-8">
                 <Image
                   src={Image1}
                   alt="Image"
@@ -1527,7 +1527,7 @@ export default function Home() {
             </footer>
           </div>
           <div className="textp text-center md:flex lg:flex md:justify-between lg:justify-between md:items-center lg:items-center mt-6">
-            <p>© 2022 Biccas Inc. Copyright and rights reserved</p>
+            <p>© 2023 ItsRazib Inc. Copyright and rights reserved</p>
             <p>Terms and Condtions . Privacy Policy</p>
           </div>
         </div>
