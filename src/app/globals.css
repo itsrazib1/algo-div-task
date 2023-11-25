@@ -2,26 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bannermanbg {
+  border-radius: 10px;
+  background: #52bd94;
+  width: 410px;
+  margin-top: 90px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.fiftydgreetik {
+  transform: rotate(-15deg);
 }
+.btnsecond {
+  width: 48.573px;
+  height: 48.573px;
+  transform: rotate(15deg);
+  flex-shrink: 0;
+  background: #FBC75E;
+  padding: 12px;
+  border-radius: 10px;
+}
+.btnthard{
+    width: 40px;
+height: 40px;
+transform: rotate(15deg);
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFAA94;
+padding: 9px;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+.secondbannerimg {
+  width: 48.573px;
+  height: 48.573px;
+  transform: rotate(15deg);
+  flex-shrink: 0;
+  background: #74C9A9;
+  padding: 12px;
+  border-radius: 10px;
 }
